@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html{
+  width: 90vw;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: calc(15px + 1vw);
+}
+
+h1{
+  padding: 2px 5px;
+  background-color: #F19F41;
+  border: 3px solid #EE8711;
+  
+}
+
+p.Section-Description{
+  padding: 2px 5px;
+  background-color: #E0BC96;
+  border: 3px solid #D5A36F;
+}
+
+ul.Four-principles, li{
+  display: flex;
+  align-items: center;
+}
+
+ul{
+  padding-inline-start: 0;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+ul.Four-principles li{
+  padding: 0 5px;
+  margin: 0 10px;
+  font-size: 0.8rem;
+  background-color: #E5E28F;
+  border-radius: 30px 10px;
+  box-shadow: 3px 2px 5px #8F92E5;
+  width: 20vw;
+  height: 1.2rem;
+}
+
+ul.Five-Moat li.Title{
+  padding: 2px 5px;
+  width: 150px;
+  background-color: #E5E28F;
+  border-radius: 10px;
+  box-shadow: 3px 2px 5px #8F92E5;
+  justify-content: flex-start;
+}
+
+p.Description{
+  padding: 5px;
+  font-size: 0.65rem;
+  border: 2px solid #B2A08D;
+  box-shadow: 2px 2px 10px #8D9FB2;
+}
+
+a{
+  text-decoration: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
