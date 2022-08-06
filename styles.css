@@ -57,7 +57,7 @@ ul.Four-principles li{
   justify-content: center;
 }
 
-ul.Five-Moat li.Title{
+ul.Five-Moats li.Title{
   padding: 2px 5px;
   width: 150px;
   background-color: #E5E28F;
@@ -78,4 +78,18 @@ a{
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+}
+
+a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+strong{
+  font-weight: bolder;
+}
+
+div.Five-Moats{
+  height: 50vh;
+  overflow: scroll;
 }
